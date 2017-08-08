@@ -1,0 +1,43 @@
+{
+  "name": "tlvince-sandbox-rollup-pouchdb-localstorage",
+  "version": "0.0.0",
+  "description": "Reduced test case for Rollup localstorage bundling",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlvince/tlvince-sandbox-rollup-pouchdb-localstorage.git"
+  },
+  "keywords": [
+    "pouchdb",
+    "localstorage",
+    "rollup",
+    "bundle"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "node": ">=6"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/tlvince-sandbox-rollup-pouchdb-localstorage/issues"
+  },
+  "homepage": "https://github.com/tlvince/tlvince-sandbox-rollup-pouchdb-localstorage#readme",
+  "dependencies": {
+    "pouchdb-adapter-localstorage": "^6.3.4",
+    "pouchdb-core": "^6.3.4"
+  },
+  "devDependencies": {
+    "rollup": "^0.45.2",
+    "rollup-plugin-commonjs": "^8.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
